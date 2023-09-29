@@ -12,7 +12,6 @@ DUMMY_SECRET_ACCESS_KEY = "dummy-secret"
 
 
 def generate_dummy_bucket():
-
     session = Session(
         aws_access_key_id=DUMMY_ACCESS_KEY_ID,
         aws_secret_access_key=DUMMY_SECRET_ACCESS_KEY,
